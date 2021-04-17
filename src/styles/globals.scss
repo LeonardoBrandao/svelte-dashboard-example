@@ -1,0 +1,32 @@
+@import './_variables.scss';
+
+:root {
+	font-family: -apple-system, BlinkMacSystemFont, Sora, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+		'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+  scrollbar-color: $dark-thumb-bg $dark-scrollbar-bg;
+  background-color: $dark-bg-secondary;
+  color: $dark-text-primary;
+  &::-webkit-scrollbar-track {
+    background-color: $dark-scrollbar-bg;
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: $dark-thumb-bg;
+    border-radius: 6px;
+    border: 3px solid $dark-scrollbar-bg;
+  }
+
+  label,
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  span {
+    color: $dark-text-primary;
+  }
+
+}
