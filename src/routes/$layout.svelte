@@ -1,5 +1,16 @@
 <script>
-	import '../app.css';
+	import '../styles/globals.scss';
 </script>
 
-<slot />
+<div class="grid-container">
+	<div class="sidebar">
+	 
+	</div>
+	<div class="content">
+		<slot />
+	</div>
+</div>
+
+<style lang="scss">
+
+</style>
